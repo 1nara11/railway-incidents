@@ -526,7 +526,7 @@ tbody tr:last-child td{border-bottom:none}
         <div class="lr"><div class="ld" style="background:var(--red)"></div>Авария / крушение</div>
         <div class="lr"><div class="ld" style="background:#111;border:2px solid #ccc"></div>Есть погибшие</div>
         <div style="border-top:1px solid var(--brd);margin:7px 0"></div>
-        <div class="lr"><div style="width100px;height:3px;background:var(--rail);margin-right:8px;flex-shrink:0;border-radius:1px"></div>Ж/д линия</div>
+        <div class="lr"><div style="width20px;height:3px;background:var(--rail);margin-right:8px;flex-shrink:0;border-radius:1px"></div>Ж/д линия</div>
         <div class="lr"><div style="width:8px;height:8px;border-radius:50%;background:rgba(61,142,240,.7);margin-right:12px;flex-shrink:0"></div>Станция/перегон</div>
         <div style="border-top:1px solid var(--brd);margin:7px 0"></div>
         <div class="lr"><div style="width:16px;height:3px;background:var(--red);margin-right:8px;flex-shrink:0;border-radius:1px"></div>🔥 Горячая точка</div>
