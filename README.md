@@ -526,7 +526,7 @@ tbody tr:last-child td{border-bottom:none}
         <div class="lr"><div class="ld" style="background:var(--red)"></div>Авария / крушение</div>
         <div class="lr"><div class="ld" style="background:#111;border:2px solid #ccc"></div>Есть погибшие</div>
         <div style="border-top:1px solid var(--brd);margin:7px 0"></div>
-        <div class="lr"><div style="width:100px;height:3px;background:var(--rail);margin-right:8px;flex-shrink:0;border-radius:1px"></div>Ж/д линия</div>
+        <div class="lr"><div style="width:20px;height:3px;background:var(--rail);margin-right:8px;flex-shrink:0;border-radius:1px"></div>Ж/д линия</div>
         <div class="lr"><div style="width:8px;height:8px;border-radius:50%;background:rgba(61,142,240,.7);margin-right:12px;flex-shrink:0"></div>Станция/перегон</div>
         <div style="border-top:1px solid var(--brd);margin:7px 0"></div>
         <div class="lr"><div style="width:16px;height:3px;background:var(--red);margin-right:8px;flex-shrink:0;border-radius:1px"></div>🔥 Горячая точка</div>
@@ -989,7 +989,7 @@ function refreshDash(){
     <td style="font-family:\'IBM Plex Mono\',monospace;font-weight:600;font-size:12px">${i.actNum}</td>
     <td>${fmtDate(i.datetime)}</td>
     <td style="font-size:12px">${i.road||'—'}</td>
-    <td style="font-size:12px;max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${i.station||'—'}</td>
+    <td style="font-size:12px;max-width:1200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${i.station||'—'}</td>
     <td style="font-size:12px;color:${stColor(i.type)}">${tn(i.type)}</td>
     <td><span class="badge ${stBadge(i.status)}">${stName(i.status)}</span></td>
   </tr>`).join(''):'<tr><td colspan="6" style="text-align:center;padding:28px;color:var(--txt2)">Нет данных</td></tr>';
